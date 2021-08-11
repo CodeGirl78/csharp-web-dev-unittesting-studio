@@ -32,5 +32,12 @@ namespace BalancedBracketsTests
             Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("]"));
         }
 
+        [TestMethod]
+        public void test4()
+        {
+            Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("[LaunchCode"));
+        }
+
+
     }
 }
