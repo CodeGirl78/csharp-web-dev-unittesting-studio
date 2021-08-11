@@ -80,6 +80,11 @@ namespace BalancedBracketsTests
             Assert.IsTrue(BalancedBrackets.HasBalancedBrackets("Launch[Code]"));
         }
 
+        [TestMethod]
+        public void Test12()
+        {
+            Assert.IsTrue(BalancedBrackets.HasBalancedBrackets("[]LaunchCode"));
+        }
 
     }
 }
