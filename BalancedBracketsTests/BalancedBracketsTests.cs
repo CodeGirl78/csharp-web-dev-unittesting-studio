@@ -51,9 +51,15 @@ namespace BalancedBracketsTests
         }
 
         [TestMethod]
-        public void test7()
+        public void Test7()
         {
             Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("[]][]["));
+        }
+
+        [TestMethod]
+        public void Test8()
+        {
+            Assert.IsTrue(BalancedBrackets.HasBalancedBrackets("[[]]"));
         }
 
     }
