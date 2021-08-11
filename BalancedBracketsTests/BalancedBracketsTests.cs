@@ -20,5 +20,11 @@ namespace BalancedBracketsTests
             Assert.IsTrue(BalancedBrackets.HasBalancedBrackets("[]"));
         }
 
+        [TestMethod]
+        public void Test2()
+        {
+            Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("["));
+        }
+
     }
 }
