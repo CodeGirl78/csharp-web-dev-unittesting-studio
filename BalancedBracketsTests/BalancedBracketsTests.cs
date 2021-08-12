@@ -87,7 +87,7 @@ namespace BalancedBracketsTests
         }
 
         [TestMethod]
-        public void test13()
+        public void Test13()
         {
             Assert.IsTrue(BalancedBrackets.HasBalancedBrackets("[sth]mvmv [khg]"));
         }
